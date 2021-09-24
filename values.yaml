@@ -1,1 +1,4 @@
 
+image: smolnax/task3
+
+replicaCount: 1
