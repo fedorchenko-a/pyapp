@@ -5,9 +5,8 @@ metadata:
   labels:
     env: prod
 spec:
-  type: NodePort
+  type: ClusterIP
   selector:
     project: pyapp-prod
   ports:
     - port: 80
-      nodePort: 31000
